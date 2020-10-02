@@ -40,7 +40,12 @@ min-height: 50px;
 .navright{
 width: 50%;
 float: right;
-min-height: 50px;
+font-family: myriad-pro,Helvetica, Arial, sans-serif;
+font-size: 20px;
+margin-left: 30px;
+margin-right: 30px;
+float: right;
+clear:
 }
   
 .Hero{
@@ -56,6 +61,7 @@ margin-right: 30px;
 padding: 10px;
 border-radius: 7px;
 color: white;
+font-size: 20px;
 }
 
 .copyone{
@@ -69,11 +75,12 @@ padding: 20px;
 margin-right: 20px;
 margin: auto;
 
+
 }
 
 .seeall{
 text-align:right;
-
+right: 20px;
 }
 
 .copytwo{
@@ -82,13 +89,19 @@ margin: auto;
 max-width: 1024px;
 }
 
-.imagestwo
+.imagestwo{
+position: relative;
+left: 50px;
+align-items: center;
+display: flex;
+}
 
 .footer{
 height: 100px;
 color: white;
 background-color: #404041;
 text-align: right;
+width: 1024px;
 }
 
 .footer-top{
