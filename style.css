@@ -2,98 +2,129 @@ body{
 background-color: white;
 font-family: myriad-pro,Helvetica, Arial, sans-serif;
 margin: auto;
-;
+font-size: 20px;
 }
 
-h1{
-}
+
 
 h2{
+font-size: 30px;
+font-weight: bold;
 }
+
+
+.scrollspace{
+background-color: blue;
+height: 300px;
+}
+
 
 .center-container{
 width:1024px;
-height: 1700px;
-margin:auto;
+margin: auto;
+background-color: white;
 }
 
 .searchbar{
-height: 100px;
+height: 30px;
 color: white;
 background-color: #404041;
-text-align: right;
 width: 1024px;
+float: right;
+clear: both;
+text-align: right;
+font-size: 20px;
 }
 
-.nav{
-
-}
 
 .navleft{
 width: 50%;
 float: left;
 min-height: 50px;
-
 }
 
 
 .navright{
-width: 50%;
-float: right;
+width: 40%;
 font-family: myriad-pro,Helvetica, Arial, sans-serif;
 font-size: 20px;
-margin-left: 30px;
-margin-right: 30px;
+position: relative;
 float: right;
-clear:
+text-align: right;
 }
   
 .Hero{
-width: 960px;
+margin-top: -24px;
+width: 1024px;
+clear:both;
 }
 
 .bookbutton{
 position: relative;
+top: -100px;
+left: 40px;
 background-color: #D65628;
 float: left;
-margin-left: 30px;
-margin-right: 30px;
 padding: 10px;
 border-radius: 7px;
 color: white;
-font-size: 20px;
+font-size: 30px;
+font-weight: bold;
 }
 
 .copyone{
 padding: 20px;
 margin: auto;
 max-width: 1024px;
+clear: both;
+margin-top: -20px;
+color:black;
 }
 
-.imagesone{
-padding: 20px;
-margin-right: 20px;
-margin: auto;
 
+.beasts{
+position: relative;
 
+float: left;
+clear:both;
+float: left;
 }
 
 .seeall{
 text-align:right;
 right: 20px;
+clear:both;
+color: #D6562B;
 }
 
 .copytwo{
 padding: 20px;
 margin: auto;
 max-width: 1024px;
+clear:both;
+
 }
 
 .imagestwo{
 position: relative;
-left: 50px;
-align-items: center;
-display: flex;
+float: left;
+clear:both;
+}
+
+
+.profiles1{
+clear:both;
+margin-left: 50px;
+}
+
+.profiles2{
+clear:both;
+margin-left: 50px;
+}
+
+.profiles3{
+clear:both;
+margin-left: 50px;
 }
 
 .footer{
@@ -102,20 +133,23 @@ color: white;
 background-color: #404041;
 text-align: right;
 width: 1024px;
+clear: both;
 }
 
 .footer-top{
 text-align: right;
-padding: 30px;
-
+margin-right: 20px;
+margin-top: 24px;
+padding: 20px;
 }
 
 .footer-bottom{
 text-align: right;
-padding-right: 100px;
-padding-left: 100px;
 color: white;
-
+float:right;
+margin-left: 200px;
+margin-right: 40px;
+font-size: 20px;
 }
 
 
@@ -142,5 +176,27 @@ color:white;}
 
 
 
+a {
+  color: #D6562B;
+}
 
+.headerbook {
+background-color: #D65628;
+float: right;
+padding: 10px;
+border-radius: 7px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
 
+h3 {
+position: relative;
+text-align: justify;
+top: -70px;
+width: 900px;
+margin: auto;
+font-size: 25px;
+font-weight: bold;
+color: white;
+}
